@@ -37,7 +37,7 @@ set items of THSectorMenu instance
 
 ### Screenshot of this project
 
-![Screenshot](https://github.com/thuai/sector-menu/blob/master/screenshot.png)
+![Screenshot](./screenshot.png)
 
 
 
