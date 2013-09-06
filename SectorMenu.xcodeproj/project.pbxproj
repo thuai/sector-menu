@@ -23,6 +23,7 @@
 		2336FC5417D75F8100E4F233 /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2336FC4817D75F8100E4F233 /* telephone.png */; };
 		2336FC5517D75F8100E4F233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2336FC4917D75F8100E4F233 /* main.m */; };
 		2336FC5617D75F8100E4F233 /* SectorMenu-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2336FC4A17D75F8100E4F233 /* SectorMenu-Info.plist */; };
+		2336FC9917D88C7400E4F233 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2336FC9817D88C7400E4F233 /* QuartzCore.framework */; };
 		23A16DE817D4B2C2007FBD6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A16DE717D4B2C2007FBD6F /* UIKit.framework */; };
 		23A16DEA17D4B2C2007FBD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A16DE917D4B2C2007FBD6F /* Foundation.framework */; };
 		23A16DEC17D4B2C2007FBD6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A16DEB17D4B2C2007FBD6F /* CoreGraphics.framework */; };
@@ -50,6 +51,7 @@
 		2336FC4917D75F8100E4F233 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SectorMenu/main.m; sourceTree = SOURCE_ROOT; };
 		2336FC4A17D75F8100E4F233 /* SectorMenu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SectorMenu-Info.plist"; path = "SectorMenu/SectorMenu-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2336FC4B17D75F8100E4F233 /* SectorMenu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SectorMenu-Prefix.pch"; path = "SectorMenu/SectorMenu-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		2336FC9817D88C7400E4F233 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		23A16DE417D4B2C2007FBD6F /* SectorMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectorMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A16DE717D4B2C2007FBD6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		23A16DE917D4B2C2007FBD6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2336FC9917D88C7400E4F233 /* QuartzCore.framework in Frameworks */,
 				23A16DE817D4B2C2007FBD6F /* UIKit.framework in Frameworks */,
 				23A16DEA17D4B2C2007FBD6F /* Foundation.framework in Frameworks */,
 				23A16DEC17D4B2C2007FBD6F /* CoreGraphics.framework in Frameworks */,
@@ -73,10 +76,10 @@
 		2336FC3217D75F4400E4F233 /* SectorMenu */ = {
 			isa = PBXGroup;
 			children = (
-				2336FC3317D75F4400E4F233 /* THOneMenuItem.h */,
-				2336FC3417D75F4400E4F233 /* THOneMenuItem.m */,
 				2336FC3517D75F4400E4F233 /* THSectorMenu.h */,
 				2336FC3617D75F4400E4F233 /* THSectorMenu.m */,
+				2336FC3317D75F4400E4F233 /* THOneMenuItem.h */,
+				2336FC3417D75F4400E4F233 /* THOneMenuItem.m */,
 			);
 			name = SectorMenu;
 			path = SectorMenu/SectorMenu;
@@ -117,6 +120,7 @@
 		23A16DE617D4B2C2007FBD6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2336FC9817D88C7400E4F233 /* QuartzCore.framework */,
 				23A16DE717D4B2C2007FBD6F /* UIKit.framework */,
 				23A16DE917D4B2C2007FBD6F /* Foundation.framework */,
 				23A16DEB17D4B2C2007FBD6F /* CoreGraphics.framework */,
@@ -127,11 +131,11 @@
 		23A16DED17D4B2C2007FBD6F /* SectorMenu */ = {
 			isa = PBXGroup;
 			children = (
+				2336FC3217D75F4400E4F233 /* SectorMenu */,
 				2336FC3917D75F5F00E4F233 /* THAppDelegate.h */,
 				2336FC3A17D75F5F00E4F233 /* THAppDelegate.m */,
 				2336FC3B17D75F5F00E4F233 /* THMainViewController.h */,
 				2336FC3C17D75F5F00E4F233 /* THMainViewController.m */,
-				2336FC3217D75F4400E4F233 /* SectorMenu */,
 				23A16DEE17D4B2C2007FBD6F /* Supporting Files */,
 			);
 			name = SectorMenu;
